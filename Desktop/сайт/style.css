@@ -1,6 +1,9 @@
 @import 
 url('https://fonts.googleapis.com/css2?family=Lato');
 
+a {
+    text-decoration: none;
+}
 .content {
     margin: 0 auto;
     width: 1170px;
@@ -9,6 +12,7 @@ url('https://fonts.googleapis.com/css2?family=Lato');
 .logo-img {
     float: left;
     padding: 20px;
+    padding-bottom: 0px;
  }
 
 .main-menu, .menu {
@@ -19,21 +23,23 @@ url('https://fonts.googleapis.com/css2?family=Lato');
  }
 
  .menu {
-     background: #f6f6f6;
-     
+    background: #f6f6f6;
+    margin-bottom: 15px;
  }
 
 .punkt {
     margin: 10px;
     font-size: 16px;
     font-family: 'Lato';
+ }
+
+ .punkt a {
     color: #434343;
  }
 
  .pt2, .pt2-1 {
     font-size: 16px;
     font-family: 'Lato';
-    color: #fff;
     margin-left: 5px;
     padding-bottom: 35px;
     padding-top: 35px;
@@ -48,3 +54,31 @@ url('https://fonts.googleapis.com/css2?family=Lato');
 .pt2-1 {
     background: #f0626e;
  }
+
+.list {
+    list-style: none;
+    margin: 0 auto; 
+    display: flex;
+    background: #05aecc;
+    padding-left: 100px;
+    margin-bottom: 15px;
+ }
+
+.long-menu {
+    font-size: 16px;
+    font-family: 'Lato';
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
+
+.long-menu a, .pt2 a, .pt2-1 a {
+     color: #fff;
+ }
+
+ .image-men {
+    float: left;
+    padding-right: 5px;
+ }
+
