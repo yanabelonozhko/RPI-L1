@@ -1,6 +1,8 @@
 @import 
 url('https://fonts.googleapis.com/css2?family=Lato');
 
+@import 
+url(//db.onlinewebfonts.com/c/0a5b5c55b73f577ff4ac8c9c31b4c183?family=Aparajita);
 a {
     text-decoration: none;
 }
@@ -45,14 +47,27 @@ a {
     padding-top: 35px;
     padding-left: 24px;
     padding-right: 24px;
+    color: #fff;
  }
 
  .pt2 {
     background: #05aecc;
  }
 
+.pt2:hover {
+    color: #f0626e;
+    background: #fff;
+    box-shadow: inset 0px -4px 9px 0px rgba(160, 160, 160, .3);
+ }
+
 .pt2-1 {
     background: #f0626e;
+ }
+
+.pt2-1:hover {
+    color: #05aecc;
+    background: #fff;
+    box-shadow: inset 0px -4px 9px 0px rgba(160, 160, 160, .3);
  }
 
 .list {
@@ -71,10 +86,13 @@ a {
     padding-right: 25px;
     padding-top: 30px;
     padding-bottom: 30px;
+    color: #fff;
  }
 
-.long-menu a, .pt2 a, .pt2-1 a {
-     color: #fff;
+.long-menu:hover {
+    color: #f0626e;
+    background: #fff;
+    box-shadow: inset 0px -4px 9px 0px rgba(160, 160, 160, .3);
  }
 
  .image-men {
@@ -82,3 +100,91 @@ a {
     padding-right: 5px;
  }
 
+.image-baby {
+    right: 0;
+    position: relative;
+}
+
+.baby-text {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top: 140px;
+	right: 1px;
+    font-size: 16px;
+    font-family: 'Lato';
+}
+
+.baby-shop {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+}
+
+.baby-shop {
+    background: #05aecc;
+}
+
+.baby-gift {
+    padding-bottom: 13px;
+    padding-top: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #00a1be;
+    color: #fff;
+}
+
+.baby-cart {
+    padding-bottom: 13px;
+    padding-top: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #f0626e;
+    color: #fff; 
+}
+
+.baby-baks {
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+    background: #323232;
+}
+
+.baby-shop:hover, .baby-gift:hover {
+    color: #f0626e;
+    background: #fff;
+    box-shadow: inset 0px -4px 9px 0px rgba(160, 160, 160, .3);
+}
+
+.baby-cart:hover {  
+    color: #00a1be;
+    background: #fff;
+    box-shadow: inset 0px -4px 9px 0px rgba(160, 160, 160, .3);
+}
+
+.image-women {
+    position: relative;
+}
+
+.women-wear, .women-text {
+    text-align: center;
+    position: absolute;
+    width: 270px;
+    color:#f0626e;
+    top: 200px;
+    background: #362a4f;
+    font-size: 35px;
+    font-family: 'Aparajita' ;
+    line-height: ;
+}
+
+.women-text {
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Lato';
+    text-transform: uppercase;
+}
