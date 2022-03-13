@@ -19,14 +19,14 @@ a {
 
 .main-menu, .menu {
     padding-left: 530px;
-    list-style: none;
     margin: 0 auto;
     display: flex;
+    list-style: none;
  }
 
  .menu {
-    background: #f6f6f6;
     margin-bottom: 15px;
+    background: #f6f6f6;
  }
 
 .punkt {
@@ -40,13 +40,13 @@ a {
  }
 
  .pt2, .pt2-1 {
-    font-size: 16px;
-    font-family: 'Lato';
     margin-left: 5px;
     padding-bottom: 35px;
     padding-top: 35px;
     padding-left: 24px;
     padding-right: 24px;
+    font-size: 16px;
+    font-family: 'Lato';
     color: #fff;
  }
 
@@ -71,96 +71,97 @@ a {
  }
 
 .list {
-    list-style: none;
     margin: 0 auto; 
-    display: flex;
-    background: #05aecc;
     padding-left: 100px;
     margin-bottom: 15px;
+    display: flex;
+    list-style: none;
+    background: #05aecc;
  }
 
 .long-menu {
-    font-size: 16px;
-    font-family: 'Lato';
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 30px;
     padding-bottom: 30px;
-    color: #fff;
+    font-size: 16px;
+    font-family: 'Lato';
+    color: #ffffff;
  }
 
 .long-menu:hover {
     color: #f0626e;
-    background: #fff;
-    box-shadow: inset 0px -4px 9px 0px rgba(160, 160, 160, .3);
+    background: #ffffff;
+    box-shadow: inset 0px -4px 9px 0px rgba(160, 160, 160, 0.3);
  }
 
  .image-men {
+    position: relative;
     float: left;
     padding-right: 5px;
  }
 
 .image-baby {
-    right: 0;
     position: relative;
+    right: 0;
 }
 
 .baby-text {
-    list-style: none;
-    display: flex;
     position: absolute;
     top: 140px;
 	right: 1px;
+    display: flex;
     font-size: 16px;
     font-family: 'Lato';
+    list-style: none;
 }
 
-.baby-shop {
+.img-shop {
     padding-bottom: 20px;
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    color: #fff;
+    color: #ffffff;
 }
 
-.baby-shop {
+.img-shop {
     background: #05aecc;
 }
 
-.baby-gift {
+.img-gift {
     padding-bottom: 13px;
     padding-top: 14px;
     padding-left: 10px;
     padding-right: 10px;
     background: #00a1be;
-    color: #fff;
+    color: #ffffff;
 }
 
-.baby-cart {
+.img-cart {
     padding-bottom: 13px;
     padding-top: 14px;
     padding-left: 10px;
     padding-right: 10px;
     background: #f0626e;
-    color: #fff; 
+    color: #ffffff; 
 }
 
-.baby-baks {
-    padding-bottom: 16px;
-    padding-top: 16px;
+.img-baks {
+    padding-bottom: 15px;
+    padding-top: 15px;
     padding-left: 10px;
     padding-right: 10px;
     color: #fff;
     background: #323232;
 }
 
-.baby-shop:hover, .baby-gift:hover {
+.img-shop:hover, .img-gift:hover {
     color: #f0626e;
     background: #fff;
     box-shadow: inset 0px -4px 9px 0px rgba(160, 160, 160, .3);
 }
 
-.baby-cart:hover {  
+.img-cart:hover {  
     color: #00a1be;
     background: #fff;
     box-shadow: inset 0px -4px 9px 0px rgba(160, 160, 160, .3);
@@ -168,23 +169,140 @@ a {
 
 .image-women {
     position: relative;
+    padding-bottom: 1px;
 }
 
-.women-wear, .women-text {
-    text-align: center;
-    position: absolute;
-    width: 270px;
-    color:#f0626e;
-    top: 200px;
-    background: #362a4f;
+.women-wear, .men-wear {
     font-size: 35px;
     font-family: 'Aparajita' ;
-    line-height: ;
+    text-transform: uppercase;
+    color:#f0626e;
 }
 
-.women-text {
-    color: #fff;
+.men-wear {
+    font-size: 52px;
+}
+ 
+.women-text, .men-text {
     font-size: 12px;
     font-family: 'Lato';
     text-transform: uppercase;
+    color: #ffffff;
+}
+
+.men-text {
+    font-size: 13px;
+}
+
+.women, .men {
+    position: absolute;
+    padding: 5px;
+    top: 220px;
+    width: 270px;
+    text-align: center;
+    background: rgba(54, 42, 79, 0.8);
+}
+
+.men {
+    top: 420px;
+    width:345px;
+}
+
+.search {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 50px;
+    height: 70px;
+    width: 570px;
+    float: left;
+    background: #f0626e;
+}
+
+.searchTerm {
+    padding: 0;
+    float: left;
+    width: 485px;
+    height: 70px;
+    font-size: 16px;
+    font-family: 'Lato';
+    text-align: center;
+    border:#f0626e;
+    outline: none;
+}
+
+.searchTerm:focus{
+    color: #380136;
+    border: #fff;
+}
+
+.searchButton {
+    width: 75px;
+    height: 70px;
+    background: #f0626e;
+    color: #eeeeee;
+    cursor: pointer;  
+    border: #f0626e;  
+}
+
+.jewer{
+    position: relative;
+}
+
+.jewerly {
+    float:right;
+}
+
+.jewerly-text{
+    position: absolute;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 140px;
+    right: 0;
+    top: 125px;
+    font-size: 64px;
+    font-family: 'Aparajita';
+    text-align: center;
+    text-transform: uppercase;
+    background: rgba(54, 42, 79, 0.8);
+    color: white;
+    writing-mode: vertical-rl;
+    transform-origin: center; 
+    transform: rotate(-180deg);  
+}
+
+.circle-right{
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    right: 0;
+    top: 145px;
+    background: #f0626e;
+    color: #ffffff;
+}
+
+.image-crafts{
+    position: relative;
+    display: inline-block;
+}
+
+.crafts-text {
+    position: absolute;
+    top: 260px;
+    right: 0;
+    display: flex;
+    font-size: 16px;
+    font-family: 'Lato';
+    list-style: none;
+}
+
+.crafts {
+    padding: 11.5px;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgba(54, 42, 79, 0.8);
+    color: white;
 }

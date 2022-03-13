@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <title>GiftShop</title>
 </head>
-<body class="content">
 
+<body class="content">
+<header>
     <div class="logo-img">
         <img src="img/logo.png" alt="crash">
     </div>
@@ -33,7 +34,9 @@
             <a href=""><li class="pt2-1">Cart <span class="fa fa-shopping-cart"></span></li></a>
         </ul>
     </div>
+</header>
 
+<nav>
     <div>
         <ul class="list">
             <a href=""><li class="long-menu">Art</li></a>
@@ -47,26 +50,53 @@
             <a href=""><li class="long-menu">More</li></a>
         </ul>
     </div>
+</nav>
 
+<main>
     <div>
-        <img class="image-men" src="img/men.png" alt="sorry">
+        <div class="image-men">
+            <span class="men"><span class="men-wear">men's wear</span><br><span class="men-text">Lorem ipsum dolor sit amet elit consectetur adipisicing elit. Corrupti Corrupti Corrupti</span></span>
+            <img src="img/men.png" alt="sorry">
+        </div>
+
         <div class="image-women">
-            <span class="women-wear">WOMEN'S WEAR </span><span class="women-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </span>
-            
+            <span class="women"><span class="women-wear">women's wear</span><br><span class="women-text">Lorem ipsum dolor sit amet elit consectetur adipisicing elit. Corrupti</span></span>
             <img src="img/women.png" alt="sorry">
         </div>
 
         <div class="image-baby">
             <img src="img/baby.png" alt="sorry">
             <ul class="baby-text">
-                <a href=""><li class="baby-shop">Baby Shop</li></a>
-                <a href=""><li class="fa fa-gift fa-2x baby-gift"></li></a>
-                <a href=""><li class="fa fa-shopping-cart fa-2x baby-cart"></li></a>
-                <li class="baby-baks">$<span style="font-size: 24px;">99.</span><sup>00</sup></li>
+                <a href=""><li class="img-shop">Baby Shop</li></a>
+                <a href=""><li class="fa fa-gift fa-2x img-gift"></li></a>
+                <a href=""><li class="fa fa-shopping-cart fa-2x img-cart"></li></a>
+                <li class="img-baks">$<span style="font-size: 24px;">99.</span><sup>00</sup></li>
             </ul>
         </div>
     </div>
+    <div class="search">
+        <input type="text" class="searchTerm" placeholder="Search your product here">
+        <button type="submit" class="searchButton">
+            <i class="fa fa-search fa-4x"></i>
+        </button>
+    </div>
+    <div class="jewer">
+        <img class="jewerly" src="img/jewerly.png" alt="sorry">
+        <span class="jewerly-text">jewerly</span>
+        <a href="" class="fa fa-chevron-circle-right fa-3x circle-right"></a>
+    </div>
+    <div class="image-crafts">
+        <img src="img/crafts.png" alt="sorry">
+        <div>
+            <ul class="crafts-text">
+                <li class="crafts">Crafts</li>
+                <a href=""><li class="fa fa-gift fa-2x img-gift"></li></a>
+                <a href=""><li class="fa fa-shopping-cart fa-2x img-cart"></li></a>
+                <li class="img-baks">$<span style="font-size: 24px;">99.</span><sup>00</sup></li>
+            </ul> 
+        </div>
 
-    <div> </div>
+    </div>
+</main>
 </body>
 </html>
