@@ -1,226 +1,339 @@
-@import 
-url('https://fonts.googleapis.com/css2?family=Lato');
+/* lato-regular - latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/lato-v22-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v22-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 
-@import 
-url(//db.onlinewebfonts.com/c/0a5b5c55b73f577ff4ac8c9c31b4c183?family=Aparajita);
+@font-face {
+    font-family: "Aparajita"; 
+    src: url("//db.onlinewebfonts.com/t/0a5b5c55b73f577ff4ac8c9c31b4c183.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/0a5b5c55b73f577ff4ac8c9c31b4c183.woff") format("woff");
+}
+
 a {
     text-decoration: none;
 }
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 .content {
     margin: 0 auto;
     width: 1170px;
 }
 
-.logo-img {
+img {
+    max-width: 100%;
+}
+
+/* Header */
+.header-nav {
+    height: 37px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-nav-list{
+    display: flex;
+}
+
+.header-nav-item {
+    font-size: 16px;
+    font-family: 'Lato';
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+.logo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     float: left;
-    padding: 20px;
+    padding: 15px;
     padding-bottom: 0px;
- }
+}
 
-.main-menu, .menu {
-    padding-left: 530px;
-    margin: 0 auto;
+.copyright {
     display: flex;
-    list-style: none;
- }
-
- .menu {
-    margin-bottom: 15px;
-    background: #f6f6f6;
- }
-
-.punkt {
-    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
     font-size: 16px;
-    font-family: 'Lato';
- }
+    color: #000;
+    background-color: rgba(255, 255, 255, .8);
+    height: 28px;
+    width: 100%;
+}
 
- .punkt a {
+.header-nav-link {
     color: #434343;
- }
+}
 
- .pt2, .pt2-1 {
+/* Nav-menu */
+.nav-menu {
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background: #f6f6f6;
+}
+
+.nav-menu-list {
+    display: flex;
+}
+
+.nav-menu-item {
+    padding: 35px 24px;
     margin-left: 5px;
-    padding-bottom: 35px;
-    padding-top: 35px;
-    padding-left: 24px;
-    padding-right: 24px;
     font-size: 16px;
     font-family: 'Lato';
+    letter-spacing: 1pt;
+    cursor: pointer;
+}
+
+.nav-menu-link {
     color: #fff;
- }
+}
 
- .pt2 {
+.nav-menu-item-blue {
     background: #05aecc;
- }
+}
 
-.pt2:hover {
-    color: #f0626e;
-    background: #fff;
-    box-shadow: inset 0px -4px 9px 0px rgba(160, 160, 160, .3);
- }
-
-.pt2-1 {
+.nav-menu-item-red {
     background: #f0626e;
- }
+}
 
-.pt2-1:hover {
-    color: #05aecc;
+.nav-menu-item-red:hover {
     background: #fff;
+    color: #05aecc;
     box-shadow: inset 0px -4px 9px 0px rgba(160, 160, 160, .3);
- }
+}
 
-.list {
-    margin: 0 auto; 
-    padding-left: 100px;
-    margin-bottom: 15px;
+.nav-menu-item-blue:hover {
+    background: #fff;
+    color: #f0626e;
+    box-shadow: inset 0px -4px 9px 0px rgba(160, 160, 160, .3);
+}
+
+.nav-menu-item:hover {
+    background: #fff;
+}
+
+/* Main menu */
+.main-nav {
+    margin: 15px 0;
+    display: block;
+    height: 70px;
+}
+
+.main-nav-list {
+    padding: 0 100px;
     display: flex;
-    list-style: none;
     background: #05aecc;
- }
+    cursor: pointer;
+}
 
-.long-menu {
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.main-nav-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 10%;
+    height: 70px;
+}
+
+.main-nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
     font-size: 16px;
     font-family: 'Lato';
     color: #ffffff;
- }
+    height: 70px;
+}
 
-.long-menu:hover {
+.main-nav-link:hover {
     color: #f0626e;
     background: #ffffff;
     box-shadow: inset 0px -4px 9px 0px rgba(160, 160, 160, 0.3);
- }
-
- .image-men {
-    position: relative;
-    float: left;
-    padding-right: 5px;
- }
-
-.image-baby {
-    position: relative;
-    right: 0;
 }
 
-.baby-text {
-    position: absolute;
-    top: 140px;
-	right: 1px;
+
+/* Images */
+.images-section {
+    display: grid;
+    grid-template-columns: 676px 694px;
+    grid-template-rows: 325px 250px 175px 336px;
+}
+
+.image-men {
+    position: relative;
+}
+
+.img-men-text {
     display: flex;
-    font-size: 16px;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 410px;
+    width:315px;
+    height: 105px;
+    padding: 0 15px;
+    background: rgba(54, 42, 79, 0.8);
+}
+
+.img-men-wear {
+    font-size: 58px;
+    font-family: 'Aparajita';
+    line-height: 35px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color:#f0626e;
+}
+
+.img-men-description {
     font-family: 'Lato';
-    list-style: none;
-}
-
-.img-shop {
-    padding-bottom: 20px;
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #ffffff;
-}
-
-.img-shop {
-    background: #05aecc;
-}
-
-.img-gift {
-    padding-bottom: 13px;
-    padding-top: 14px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background: #00a1be;
-    color: #ffffff;
-}
-
-.img-cart {
-    padding-bottom: 13px;
-    padding-top: 14px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background: #f0626e;
+    text-transform: uppercase;
     color: #ffffff; 
+    font-size: 13px;
 }
 
-.img-baks {
-    padding-bottom: 15px;
-    padding-top: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
+.img-men-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 517px;
+    width: 345px;
+    height: 43px;
+    font-size: 20px;
+    font-family: 'Aparajita';
+    background: #f0626e;
     color: #fff;
-    background: #323232;
-}
-
-.img-shop:hover, .img-gift:hover {
-    color: #f0626e;
-    background: #fff;
-    box-shadow: inset 0px -4px 9px 0px rgba(160, 160, 160, .3);
-}
-
-.img-cart:hover {  
-    color: #00a1be;
-    background: #fff;
-    box-shadow: inset 0px -4px 9px 0px rgba(160, 160, 160, .3);
+    text-transform: uppercase;
 }
 
 .image-women {
     position: relative;
-    padding-bottom: 1px;
 }
 
-.women-wear, .men-wear {
+.img-women-heading{
     font-size: 35px;
+    line-height: 21px;
     font-family: 'Aparajita' ;
     text-transform: uppercase;
     color:#f0626e;
 }
 
-.men-wear {
-    font-size: 52px;
-}
- 
-.women-text, .men-text {
+.img-women-description {
     font-size: 12px;
     font-family: 'Lato';
     text-transform: uppercase;
     color: #ffffff;
 }
 
-.men-text {
-    font-size: 13px;
-}
-
-.women, .men {
+.img-women-text {
     position: absolute;
-    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15px;
     top: 220px;
-    width: 270px;
-    text-align: center;
+    width: 237px;
+    height: 83px;
     background: rgba(54, 42, 79, 0.8);
 }
 
-.men {
-    top: 420px;
-    width:345px;
+.image-baby {
+    position: relative;
+    grid-column: 2;
+}
+
+.img-baby-text {
+    height: 55px;
+    position: absolute;
+    top: 162px;
+    right: 200px;
+    display: flex;
+    font-size: 16px;
+    font-family: 'Lato';
+    list-style: none;
+}
+
+.img-babyshop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 105px;
+    color: #ffffff;
+    background: #05aecc;
+}
+
+.img-babyshop:hover,
+.img-gift-icon:hover {
+    color: #f0626e;
+    background-color: #fff;
+}
+
+.img-gift-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 51px;
+    color: #ffffff;
+    background: #00a1be;
+}
+
+.img-cart-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 51px;
+    color: #ffffff;
+    background: #f0626e;
+}
+
+.img-cart-icon:hover {
+    color: #05aecc;
+    background-color: #fff;
+}
+
+.img-baks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 85px;
+    color: #fff;
+    background: #323232;
 }
 
 .search {
-    margin-right: 5px;
-    margin-bottom: 5px;
-    padding: 50px;
-    height: 70px;
-    width: 570px;
-    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 172px;
+    width: 670px;
     background: #f0626e;
 }
 
 .searchTerm {
-    padding: 0;
-    float: left;
+    display: flex;
     width: 485px;
     height: 70px;
     font-size: 16px;
@@ -244,21 +357,17 @@ a {
     border: #f0626e;  
 }
 
-.jewer{
+.image-jewerly{
     position: relative;
 }
 
-.jewerly {
-    float:right;
-}
-
-.jewerly-text{
+.img-jewerly-heading{
     position: absolute;
+    top: 125px;
+    right: 200px;
     padding-right: 15px;
     padding-top: 10px;
     padding-bottom: 140px;
-    right: 0;
-    top: 125px;
     font-size: 64px;
     font-family: 'Aparajita';
     text-align: center;
@@ -272,33 +381,31 @@ a {
 
 .circle-right{
     position: absolute;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    right: 0;
+    padding:20px 30px;
     top: 145px;
+    right: 200px;
     background: #f0626e;
     color: #ffffff;
 }
 
 .image-crafts{
     position: relative;
-    display: inline-block;
 }
 
-.crafts-text {
+.img-crafts-text {
     position: absolute;
-    top: 260px;
-    right: 0;
+    bottom: 0;
+    right: 6px;
     display: flex;
     font-size: 16px;
     font-family: 'Lato';
-    list-style: none;
 }
 
-.crafts {
-    padding: 11.5px;
+.img-crafts-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
     width: 200px;
     font-size: 30px;
     text-align: center;
