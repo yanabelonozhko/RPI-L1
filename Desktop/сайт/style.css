@@ -319,6 +319,7 @@ img {
     justify-content: center;
     height: 55px;
     width: 85px;
+    flex-grow: 1;
     color: #fff;
     background: #323232;
 }
@@ -413,3 +414,486 @@ img {
     background: rgba(54, 42, 79, 0.8);
     color: white;
 }
+
+/*новые продукты*/
+.new_products{
+  width: 1170px;
+  height: 333px;
+}
+
+/*Меню верхнее новых продуктов*/
+.new_products_menu{
+  display: flex;
+  height: 105px;
+  border-bottom-style: solid;
+  border-color: #b9b9b9;
+  border-bottom-width: 1px;
+}
+
+  /*лейбл*/
+.products_text{	
+  align-self: flex-end;
+  color: #00a1be;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  line-height: 23px;
+}
+
+.menu_button_base {
+  display: flex;
+  align-self: flex-end;
+  margin-left: auto;
+  justify-content: space-between;
+  width: 141px;
+  font-size: 30px;
+  color: white;
+}
+
+.menu_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 80px;
+  background-color: #3c3c3c;
+}
+
+.menu_button:hover {
+  background-color:#00a1be;
+  cursor: pointer;
+}
+/*END Меню верхнее новых продуктов*/
+
+/*фото новых продуктов*/
+.new_products_photo{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
+  height: 200px;
+  width: 1170px;
+}
+  
+/*первая фотография*/
+.p1 {
+  width: 370px;
+  background-image:url(img/p1.png);
+}
+  
+/*вторая фотография*/
+.p2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;     
+  background-image:url(img/p2.png);
+  width: 370px;
+}
+.img-p2-text {
+  top: auto;
+  right: auto;
+}
+
+/*кнопки на второй фотографии*/
+.p2_base {
+  display: flex;
+  justify-content: space-between;
+  width: 290px;
+  height:55px;
+  background-color:yellow;
+}
+
+.p2_label{
+  background-color:#05aecc;
+  width:34%;
+}
+ 
+.p2_gift{
+  width:18%;
+  background-color:#00a1be;
+}
+
+.p2_cart{
+  width:18%;
+  background-color:#f0626e;
+}
+
+.p2_price{
+  width:30%;
+  background-color:#323232;
+}
+ 
+/*третья фотография*/
+.p3{
+  width: 370px;
+  background-image:url(img/p3.png);
+}
+/*END фото новых продуктов*/
+
+/*След секция*/
+.futured_products{
+  width: 1170px;
+  height: 534px;
+}
+  
+/*меню*/
+.futured_products_menu{
+  border-bottom-style: solid;
+  border-color: #b9b9b9;
+  border-bottom-width: 1px;
+  display: flex;    
+  height: 106px;
+  margin-bottom: 0px;
+}
+  
+  
+/*кнопки меню*/
+.menu_button2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 80px;
+  background-color: #3c3c3c;
+}
+
+.menu_button2:hover {
+  background-color: #f0626e;
+  cursor: pointer;
+}
+
+/*фотографии второй секции (только они)*/
+.futured_products_photo_photo{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  height: 290px;
+  width: 1170px
+  }
+  
+/*фото*/
+.d1{
+  background-image:url(img/d1.png);
+  height: 290px;
+  width: 270px;
+}
+      
+.d2{
+  background-image:url(img/d2.png);
+  height: 290px;
+  width: 270px;
+}
+      
+.d3{        
+  background-image:url(img/d3.png);
+  height: 290px;
+  width: 270px;
+}
+   
+.d4{
+  background-image:url(img/d4.png);
+  height: 290px;
+  width: 270px;
+}
+
+
+/*описание фотографий(база под них)*/
+.futured_products_photo_desc{
+  display: flex;
+  justify-content: space-between;
+  height: 55px;
+}
+      
+/*само описание(текст)*/
+.desc_text1{     
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+}
+      
+.desc_text2_red{
+  font-size: 13px;
+  color: #f0626e;
+  font-family: 'Lato', sans-serif;
+}
+      
+.desc_text2_blue{ 
+  font-size: 13px;
+  color: #05aecc;
+  font-family: 'Lato', sans-serif;
+}
+  
+/*окошки или что-то я не помню*/    
+.desc1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-color: #ddd;
+  border-width: 1px;
+  height: 57px;
+  width: 269px;
+}
+  
+/*кнопочки(кнопка под одной фотографией)*/
+.futured_products_photo_buttons{
+  display: flex;
+  height: 52px;
+  margin-top: 3px;
+  justify-content: space-between;
+}
+
+/*кнопочки одной кнопки*/
+.future-img-list{
+  height: 51px; 
+  width: 271px;
+  display: flex;
+  font-size: 16px;
+  font-family: 'Lato';
+}
+
+.img-future-arrow {
+  display: flex;
+  width: 54px;
+  align-items: center;
+  justify-content: center;
+  color: #b9b9b9;
+  border-style: solid;
+  border-color: #ddd;
+  border-width: 1px;
+}
+
+.future-gift,
+.future-cart {
+  display: flex;
+  width: 54px;
+  align-items: center;
+  justify-content: center;
+  color: #b9b9b9;
+  border-style: solid;
+  border-color: #ddd;
+  border-width: 1px;
+}
+
+.future-baks {
+  width: 100px;
+  height: 51px;
+  background: #f0626e;
+  border-style: solid;
+  border-color: #ddd;
+  border-width: 1px;
+}
+
+.future-baks-blue {
+  width: 100px;
+  height: 51px;
+  background: #05aecc;
+  border-style: solid;
+  border-color: #ddd;
+  border-width: 1px;
+}
+
+
+
+
+.conteiner {
+  padding: 0 15px; /*внутренний отступ */
+  margin: 0 auto;  /*внешний отступ */
+}
+
+.main {
+  flex-direction: column;
+  justify-content: center;  
+}
+
+.who-text {
+
+}
+
+.who-title {
+  padding-top: 45px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  line-height: 23px;
+  color: #00a1be;
+  border-bottom: 1px solid #b9b9b9;
+}
+
+.who-description {
+  padding-top: 35px;;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  line-height: 26px;
+}
+
+.main_card {
+  margin-top: 40px; /*отталкивание */
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link-register {
+  padding: 30px 260px;
+  border-bottom: 1px solid #b9b9b9;
+}
+
+.register {
+  font-size: 28px;
+  font-family: 'Lato', sans-serif;
+  line-height: 24px;
+  height: 60px;
+  width: 650px;
+  color: #fff;
+  background: #05aecc;
+  border: none;
+}
+
+.footer_text {
+  text-transform: uppercase;
+  margin: 50px 0;
+  font-size: 25x;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+  line-height: 30px;
+}
+
+.footer_link {
+  font-size: 16x;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+  line-height: 30px;
+  color: #000;
+}
+
+.footer_content {
+  display: flex; 
+  justify-content: space-between;
+  flex: 1 1 25%;
+  padding-left: 23px;
+}
+
+.input_style {
+  width: 378px;
+  height: 70px;
+  text-align: center;
+  border-radius: 0;
+  border: 1px solid #b9b9b9;
+}
+
+.mail_text {
+  color: #fff;
+  width: 384px;
+  height: 50px;
+  background: rgb(75, 168, 245);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-keep {
+  text-transform: uppercase;
+  padding-top: 35px;
+  font-size: 25x;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+  line-height: 30px;
+}
+
+.footer_mail {
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.end_text {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Lato;
+
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+  margin-top: 20px;
+}
+
+.facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  background-color: #39599f;
+  color: #fff;
+}
+
+
+.icon_twitter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #45b0e3;
+  color: #fff;
+  width: 52px;
+  height: 52px;
+}
+
+.icon-google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1872bf;
+  color: #fff;
+  width: 52px;
+  height: 52px;
+}
+
+.icon_flicker{
+  width: 52px;
+  height: 52px;
+}
+.icon-feedWeb{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8bc2e;
+  color: #fff;
+  width: 52px;
+  height: 52px;
+}
+
+
+.F_mail-text {
+  color: #fff;
+  padding: 8px 232px;
+
+  background: rgb(75, 168, 245);
+  border-radius: 3px;
+  /* закругление углов */
+}
+
+.main-card_link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.div {
+  display: flex;
+  color: black;
+  background: #ff0000;
+  padding: 50px;
+}
+
