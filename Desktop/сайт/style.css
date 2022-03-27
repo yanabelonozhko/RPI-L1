@@ -595,6 +595,18 @@ img {
   height: 290px;
   width: 270px;
 }
+
+    .d1_20off{
+        margin-top: 12px;
+        width: 80px;
+        height: 34px;
+        background-color: #f0626e;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
       
 .d2{
   background-image:url(img/d2.png);
@@ -607,6 +619,17 @@ img {
   height: 290px;
   width: 270px;
 }
+.d3_new{
+        margin-top: 12px;
+        width: 80px;
+        height: 34px;
+        background-color: #05aecc;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
    
 .d4{
   background-image:url(img/d4.png);
