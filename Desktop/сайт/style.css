@@ -860,9 +860,19 @@ img {
 }
 
 .icon_flicker{
+  width: 30px;
+  height: 30px;
+}
+
+.flickr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 52px;
   height: 52px;
+  border: 1px solid #b9b9b9;
 }
+
 .icon-feedWeb{
   display: flex;
   align-items: center;
