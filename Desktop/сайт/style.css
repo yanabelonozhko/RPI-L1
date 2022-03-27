@@ -9,9 +9,9 @@
 }
 
 @font-face {
-    font-family: "Aparajita"; 
-    src: url("//db.onlinewebfonts.com/t/0a5b5c55b73f577ff4ac8c9c31b4c183.woff2") format("woff2"), 
-    url("//db.onlinewebfonts.com/t/0a5b5c55b73f577ff4ac8c9c31b4c183.woff") format("woff");
+    font-family: 'Aparajita'; 
+    src: url('fonts/Aparajita/Aparajita.woff') format('woff'),
+    url('fonts/Aparajita/Aparajita.woff2') format('woff2');
 }
 
 a {
