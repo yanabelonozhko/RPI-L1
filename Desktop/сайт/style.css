@@ -220,7 +220,7 @@ img {
     height: 43px;
     font-size: 20px;
     font-family: 'Aparajita';
-    background: #f0626e;
+    background: rgba(240, 98, 110, 0.9);
     color: #fff;
     text-transform: uppercase;
 }
@@ -363,30 +363,42 @@ img {
 }
 
 .img-jewerly-heading{
-    position: absolute;
-    top: 125px;
-    right: 200px;
-    padding-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 140px;
-    font-size: 64px;
-    font-family: 'Aparajita';
-    text-align: center;
-    text-transform: uppercase;
-    background: rgba(54, 42, 79, 0.8);
-    color: white;
-    writing-mode: vertical-rl;
-    transform-origin: center; 
-    transform: rotate(-180deg);  
+  position: absolute;
+  top: 114px;
+  right: 200px;
+  width: 90px;
+  height: 370px;
+  padding-top: 25px;
+  display: flex;
+  align-items: flex-end;
+  font-size: 64px;
+  font-family: 'Aparajita';
+  text-transform: uppercase;
+  background: rgba(54, 42, 79, 0.8);
+  color: white;
+  writing-mode: vertical-rl;
+  transform-origin: center; 
+  transform: rotate(-180deg);  
 }
 
 .circle-right{
-    position: absolute;
-    padding:20px 30px;
-    top: 145px;
-    right: 200px;
-    background: #f0626e;
-    color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 98px;
+  height: 88px;
+  top: 145px;
+  right: 200px;
+  background: #f0626e;
+  color: #ffffff;
+}
+.triangle {
+  position: absolute;
+  top: 233px;
+  right: 290px;
+  border-top: 10px solid #c5515b;
+  border-left: 8px solid transparent;
 }
 
 .image-crafts{
@@ -413,6 +425,10 @@ img {
     text-transform: uppercase;
     background: rgba(54, 42, 79, 0.8);
     color: white;
+}
+
+.section-new-products {
+  margin-top: 25px;
 }
 
 /*новые продукты*/
