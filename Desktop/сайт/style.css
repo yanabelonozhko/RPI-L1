@@ -335,27 +335,67 @@ img {
 
 .searchTerm {
     display: flex;
+    align-self: center;
+    justify-content: center;
     width: 485px;
-    height: 70px;
+    height: 72px;
     font-size: 16px;
     font-family: 'Lato';
     text-align: center;
-    border:#f0626e;
-    outline: none;
+    border:none;
+    background: #fff;
+    letter-spacing: 1.2px;
 }
 
-.searchTerm:focus{
-    color: #380136;
-    border: #fff;
+.search-help-string{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
+.search-help-string:invalid{
+  border: none;
+}
+
+.search-input{
+  display: block;
+  width: 440px;
+  height: 70px;
+  border: none;
+  outline:none;
+  font-size: 16px;
+  font-family: 'Lato';
+}
+
+.search-input:valid + .main-search-helper{
+  display: none;
+}
+
+.main-search-helper {
+  position: absolute;
+  font-size: 16px;
+  font-family: 'Lato';
+  user-select: none;
+  cursor: text;
+}
+
+.main-serch-helper-exmpl {
+  color: #b9b9b9;
+}
+  
 .searchButton {
-    width: 75px;
-    height: 70px;
-    background: #f0626e;
-    color: #eeeeee;
-    cursor: pointer;  
-    border: #f0626e;  
+  width: 75px;
+  height: 72px;
+  background: #f0626e;
+  color: #eeeeee;
+  cursor: pointer;  
+  border: none;  
+}
+
+.searchButton:hover {
+  background: #fff;
+  color: #f0626e;
 }
 
 .image-jewerly{
@@ -393,6 +433,11 @@ img {
   background: #f0626e;
   color: #ffffff;
 }
+
+.circle-right:hover{
+  color: rgba(54, 42, 79, 0.8);
+}
+
 .triangle {
   position: absolute;
   top: 233px;
@@ -716,9 +761,16 @@ img {
   border-width: 1px;
 }
 
+.img-future-arrow:hover,
+.future-gift:hover,
+.future-cart:hover {
+  background-color : #ddd;
+  color: #fff;
+}
+
 .future-baks {
   width: 100px;
-  height: 51px;
+  height: 49px;
   background: #f0626e;
   border-style: solid;
   border-color: #ddd;
@@ -727,28 +779,21 @@ img {
 
 .future-baks-blue {
   width: 100px;
-  height: 51px;
+  height: 49px;
   background: #05aecc;
   border-style: solid;
   border-color: #ddd;
   border-width: 1px;
 }
 
-
-
-
 .conteiner {
-  padding: 0 15px; /*внутренний отступ */
-  margin: 0 auto;  /*внешний отступ */
+  padding: 0 15px; 
+  margin: 0 auto;  
 }
 
 .main {
   flex-direction: column;
   justify-content: center;  
-}
-
-.who-text {
-
 }
 
 .who-title {

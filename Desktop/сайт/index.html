@@ -14,17 +14,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
 
-  <link href="//db.onlinewebfonts.com/c/0a5b5c55b73f577ff4ac8c9c31b4c183?family=Aparajita" rel="stylesheet" type="text/css"/>
+  <link href="//db.onlinewebfonts.com/c/0a5b5c55b73f577ff4ac8c9c31b4c183?family=Aparajita" rel="stylesheet"
+    type="text/css" />
 
   <title>GiftShop</title>
 </head>
 
 <body class="content">
   <header class="header">
-    <div class="logo">
+    <a href="#" class="logo">
       <img src="img/logo.png" alt="logo">
       <span class="copyright">copyright logo</span>
-    </div>
+    </a>
 
     <nav class="header-nav">
       <ul class="header-nav-list">
@@ -148,9 +149,9 @@
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
           </span>
         </span>
-        <a href="#" class="img-men-btn">
+        <div class="img-men-btn">
           Lorem ipsum is simly dummy text
-        </a>
+        </div>
         <img src="img/men.png" alt="sorry">
       </div>
 
@@ -173,21 +174,42 @@
             <li class="img-babyshop">Baby Shop</li>
           </a>
           <a class="img-gift-icon" href="">
-            <li class=" fa fa-gift fa-2x"></li>
+            <li class=" fa fa-gift"></li>
           </a>
           <a class="img-cart-icon" href="">
-            <li class="fa fa-shopping-cart fa-2x"></li>
+            <li class="fa fa-shopping-cart"></li>
           </a>
           <li class="img-baks">$<span style="font-size: 24px;">99.</span><sup>00</sup></li>
         </ul>
       </div>
 
-      <div class="search">
-        <input type="text" class="searchTerm" placeholder="Search your product here">
-        <button type="submit" class="searchButton">
-          <i class="fa fa-search fa-4x"></i>
-        </button>
-      </div>
+      <!-- <div class="search">
+        <div class="search-string">
+          <label for="search" class="search-helper">
+            <input type="text" id="search" class="searchTerm">
+            <div class="search-text"></div> Search your product here 
+            <span class="search-helper-example">
+              ( e.g.:Silver diamond ring )
+            </span>
+          </label>
+        </div>
+       
+
+      </div> -->
+
+        <div class="search">
+          <div class="searchTerm">
+            <label class="search-help-string">
+              <input class="search-input" required type="text">
+              <div class="main-search-helper">Search your product here
+                <span class="main-serch-helper-exmpl">( e.g.:Silver diamond ring )</span>
+              </div>
+            </label>
+          </div>
+          <button type="submit" class="searchButton">
+            <i class="fa fa-search fa-4x"></i>
+          </button>
+        </div>
 
       <div class="image-jewerly">
         <img src="img/jewerly.png" alt="sorry">
@@ -321,10 +343,10 @@
                 <li class="fa fa-arrow-right-arrow-left"></li>
               </a>
               <a class="future-gift" href="">
-                <li class=" fa fa-gift fa-2x"></li>
+                <li class=" fa fa-gift"></li>
               </a>
               <a class="future-cart" href="">
-                <li class="fa fa-shopping-cart fa-2x"></li>
+                <li class="fa fa-shopping-cart"></li>
               </a>
               <li class="img-baks future-baks">$<span style="font-size: 24px;">99.</span><sup>00</sup></li>
             </ul>
@@ -333,10 +355,10 @@
                 <li class="fa fa-arrow-right-arrow-left"></li>
               </a>
               <a class="future-gift" href="">
-                <li class=" fa fa-gift fa-2x"></li>
+                <li class=" fa fa-gift"></li>
               </a>
               <a class="future-cart" href="">
-                <li class="fa fa-shopping-cart fa-2x"></li>
+                <li class="fa fa-shopping-cart"></li>
               </a>
               <li class="img-baks future-baks">$<span style="font-size: 24px;">99.</span><sup>00</sup></li>
             </ul>
@@ -345,10 +367,10 @@
                 <li class="fa fa-arrow-right-arrow-left"></li>
               </a>
               <a class="future-gift" href="">
-                <li class=" fa fa-gift fa-2x"></li>
+                <li class=" fa fa-gift"></li>
               </a>
               <a class="future-cart" href="">
-                <li class="fa fa-shopping-cart fa-2x"></li>
+                <li class="fa fa-shopping-cart"></li>
               </a>
               <li class="img-baks future-baks-blue">$<span style="font-size: 24px;">99.</span><sup>00</sup></li>
             </ul>
@@ -357,10 +379,10 @@
                 <li class="fa fa-arrow-right-arrow-left"></li>
               </a>
               <a class="future-gift" href="">
-                <li class=" fa fa-gift fa-2x"></li>
+                <li class=" fa fa-gift"></li>
               </a>
               <a class="future-cart" href="">
-                <li class="fa fa-shopping-cart fa-2x"></li>
+                <li class="fa fa-shopping-cart"></li>
               </a>
               <li class="img-baks future-baks">$<span style="font-size: 24px;">99.</span><sup>00</sup></li>
             </ul>
@@ -438,9 +460,10 @@
               </div>
               <h2 class="footer-keep">keep in touch</h2>
               <div class="icon">
-                <a class="facebook" href="https://www.facebook.com/campaign/landing.php?campaign_id=1557999815&extra_1=s%7Cc%7C294723539698%7Ce%7Cfacebook%7C&placement=&creative=294723539698&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1557999815%26adgroupid%3D58938663837%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1001493%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAiA1JGRBhBSEiwAxXblwQPHrhAy3lbyoSgYFH5OwYAvAXzS1OUaIQKrsICeYN0Ca_j4NCLTZhoCslsQAvD_BwE">
-                    <i class="fa-brands fa-facebook-f"></i>
-                  </a>
+                <a class="facebook"
+                  href="https://www.facebook.com/campaign/landing.php?campaign_id=1557999815&extra_1=s%7Cc%7C294723539698%7Ce%7Cfacebook%7C&placement=&creative=294723539698&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1557999815%26adgroupid%3D58938663837%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1001493%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAiA1JGRBhBSEiwAxXblwQPHrhAy3lbyoSgYFH5OwYAvAXzS1OUaIQKrsICeYN0Ca_j4NCLTZhoCslsQAvD_BwE">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
                 <a href="https://twitter.com/i/flow/login" class=" icon_twitter">
                   <i class="fa-brands fa-twitter"></i>
                 </a>
@@ -449,9 +472,9 @@
                 </a>
                 <a class="flickr" href="https://www.flickr.com/photos/tags/login/">
                   <img class="icon_flicker" src="img/flickr.svg" alt="">
-                  </a>
+                </a>
                 <a class="icon-google" href="https://www.google.com/intl/ru/account/about/">
-                 <i class="fa-brands fa-google"></i>
+                  <i class="fa-brands fa-google"></i>
                 </a>
               </div>
             </div>
