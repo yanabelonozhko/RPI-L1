@@ -872,26 +872,25 @@ img {
   width: 378px;
   height: 70px;
   text-align: center;
- /* border-radius: 0;*/
-  border: 1px solid #dedede;
+  border-radius: 0;
+  border: 1px solid #b9b9b9;
 }
 
-<<<<<<< HEAD
-.mail_text {
+.mail-text {
   background-color: #05aecc;
   color:white;
-=======
-.mail-text {
-  color: #fff;
->>>>>>> 1a719f7ea83559161e22d3c160c807149f74cf56
   width: 384px;
   height: 50px;
   border-radius: 3px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+  line-height: 30px;
 }
-.mail_text:hover {
+.mail-text:hover {
   background-color:#f0626e;
   cursor: pointer;
   color: white;
@@ -950,7 +949,7 @@ img {
 .facebook:hover {
   background-color: #4166b6;
   cursor: pointer;
-  color: #aaaaa;
+  color: #aaaaaa;
 }
 
 
@@ -963,10 +962,10 @@ img {
   width: 52px;
   height: 52px;
 }
-.icon_twitter:hover {
+.icon-twitter:hover {
   background-color: #51c2f7;
   cursor: pointer;
-  color: #aaaaa;
+  color: #aaaaaa;
 }
 
 .google {
@@ -981,7 +980,7 @@ img {
 .icon-google:hover {
   background-color: #1681dc;
   cursor: pointer;
-  color: #aaaaa;
+  color: #aaaaaa;
 }
 
 .icon-flickr{
@@ -1000,7 +999,7 @@ img {
 .flickr:hover {
   background-color: #b9b9b9;
   cursor: pointer;
-  color: #aaaaa;
+  color: #aaaaaa;
 }
 
 .feedWeb {
@@ -1012,18 +1011,13 @@ img {
   width: 52px;
   height: 52px;
 }
-<<<<<<< HEAD
 .icon-feedWeb:hover {
   background-color: #fecd59;
   cursor: pointer;
-  color: #aaaaa;
+  color: #aaaaaa;
 }
 
-.F_mail-text {
-=======
-
 .F-mail-text {
->>>>>>> 1a719f7ea83559161e22d3c160c807149f74cf56
   color: #fff;
   padding: 8px 232px;
   background: rgb(75, 168, 245);
@@ -1047,7 +1041,7 @@ img {
   justify-content: center;
   align-items: center;
 }
-.img_check:hover {
+.img-check:hover {
   background-color:#585757;
   cursor: pointer;
   color: white;
@@ -1065,7 +1059,7 @@ img {
   justify-content: center;
   align-items: center;
 }
-.img_register:hover {
+.img-register:hover {
   background-color:#05a2be;
   cursor: pointer;
   color: white;
@@ -1082,7 +1076,7 @@ img {
   justify-content: center;
   align-items: center;
 }
-.img_chose:hover {
+.img-chose:hover {
   background-color:#dc5964;
   cursor: pointer;
 }
