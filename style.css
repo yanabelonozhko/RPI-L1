@@ -69,6 +69,7 @@ img {
   align-items: center;
   position: absolute;
   font-size: 16px;
+  font-family: 'Lato';
   color: #000;
   background-color: rgba(255, 255, 255, .8);
   height: 28px;
