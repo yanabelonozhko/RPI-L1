@@ -949,7 +949,7 @@ img {
 .facebook:hover {
   background-color: #4166b6;
   cursor: pointer;
-  color: #aaaaaa;
+  color: white;
 }
 
 
@@ -962,10 +962,10 @@ img {
   width: 52px;
   height: 52px;
 }
-.icon-twitter:hover {
+.twitter:hover {
   background-color: #51c2f7;
   cursor: pointer;
-  color: #aaaaaa;
+  color: white;
 }
 
 .google {
@@ -977,10 +977,10 @@ img {
   width: 52px;
   height: 52px;
 }
-.icon-google:hover {
+.google:hover {
   background-color: #1681dc;
   cursor: pointer;
-  color: #aaaaaa;
+  color: white;
 }
 
 .icon-flickr{
@@ -999,7 +999,7 @@ img {
 .flickr:hover {
   background-color: #b9b9b9;
   cursor: pointer;
-  color: #aaaaaa;
+  color: white;
 }
 
 .feedWeb {
@@ -1011,10 +1011,10 @@ img {
   width: 52px;
   height: 52px;
 }
-.icon-feedWeb:hover {
+.feedWeb:hover {
   background-color: #fecd59;
   cursor: pointer;
-  color: #aaaaaa;
+  color: white;
 }
 
 .F-mail-text {
