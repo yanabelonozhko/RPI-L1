@@ -835,12 +835,12 @@ img {
   border: none;
 }
 .register:hover {
-  background-color:white;
+  background-color:#f0626e;
   border-style: solid;
   border-width: 1px;
   border-color: #ddd;
   cursor: pointer;
-  color: #f0626e;
+  color: #fff;
 }
 
 .footer-text {
