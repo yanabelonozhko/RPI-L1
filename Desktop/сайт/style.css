@@ -786,10 +786,6 @@ img {
   border-width: 1px;
 }
 
-.conteiner {
-  padding: 0 15px; 
-  margin: 0 auto;  
-}
 
 .main {
   flex-direction: column;
@@ -816,10 +812,10 @@ img {
 }
 
 .main_card {
-  margin-top: 40px; /*отталкивание */
+  margin-top: 40px;
   margin-bottom: 40px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .link-register {
@@ -892,17 +888,18 @@ img {
 
 .footer_mail {
   display: flex;
-
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
 }
 
 .end_text {
-  font-size: 16px;
-  font-weight: 400;
-  font-family: Lato;
-
+  border-bottom: 1px solid #b9b9b9;
+  border-top: 1px solid #b9b9b9;
+  padding: 28px 25px;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: 'Lato';
 }
 
 .icon {
@@ -984,6 +981,54 @@ img {
 
 }
 
+.img_check {
+  height: 230px;
+  width: 370px;
+  background: #000;
+  max-width: 500px;
+  max-height: 200px;
+  margin-bottom: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_register {
+  height: 230px;
+  width: 370px;
+  background: rgb(53, 173, 209);
+  max-width: 500px;
+  max-height: 200px;
+  margin-bottom: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_chose {
+  height: 230px;
+  width: 370px;
+  background: rgb(223, 94, 94);
+  max-width: 500px;
+  max-height: 200px;
+  margin-bottom: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-img-text{
+  max-width: 150px;
+  font-size: 30px;
+  font-weight: 100;
+  font-family: 'Lato', sans-serif;
+  line-height: 30px;
+  color: #fff;
+  margin-left: 20px;
+}
 .div {
   display: flex;
   color: black;
