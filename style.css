@@ -181,6 +181,10 @@ img {
 
 .image-men {
   position: relative;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-image: url("/img/men.png");
+  background-repeat: no-repeat;
 }
 
 .img-men-text {
@@ -228,6 +232,8 @@ img {
 
 .image-women {
   position: relative;
+  background-image: url("/img/women.png");
+  background-repeat: no-repeat;
 }
 
 .img-women-heading{
@@ -260,6 +266,8 @@ img {
 .image-baby {
   position: relative;
   grid-column: 2;
+  background-image: url("/img/baby.png");
+  background-repeat: no-repeat;
 }
 
 .img-baby-text {
@@ -401,6 +409,11 @@ img {
 
 .image-jewerly{
   position: relative;
+  background-image: url("/img/jewerly.png");
+  background-repeat: no-repeat;
+  grid-column: 2;
+  grid-row-start: 3;
+  grid-row-end: 5;
 }
 
 .img-jewerly-heading{
@@ -449,6 +462,8 @@ img {
 
 .image-crafts{
   position: relative;
+  background-image: url("/img/crafts.png");
+  background-repeat: no-repeat;
 }
 
 .img-crafts-text {
