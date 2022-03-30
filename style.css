@@ -183,7 +183,7 @@ img {
   position: relative;
   grid-row-start: 1;
   grid-row-end: 3;
-  background-image: url("/img/men.png");
+  background-image: url(img/men.png);
   background-repeat: no-repeat;
 }
 
@@ -232,7 +232,7 @@ img {
 
 .image-women {
   position: relative;
-  background-image: url("/img/women.png");
+  background-image: url(img/women.png);
   background-repeat: no-repeat;
 }
 
@@ -266,7 +266,7 @@ img {
 .image-baby {
   position: relative;
   grid-column: 2;
-  background-image: url("/img/baby.png");
+  background-image: url(img/baby.png);
   background-repeat: no-repeat;
 }
 
@@ -409,7 +409,7 @@ img {
 
 .image-jewerly{
   position: relative;
-  background-image: url("/img/jewerly.png");
+  background-image: url(img/jewerly.png);
   background-repeat: no-repeat;
   grid-column: 2;
   grid-row-start: 3;
@@ -462,7 +462,7 @@ img {
 
 .image-crafts{
   position: relative;
-  background-image: url("/img/crafts.png");
+  background-image: url(img/crafts.png);
   background-repeat: no-repeat;
 }
 
